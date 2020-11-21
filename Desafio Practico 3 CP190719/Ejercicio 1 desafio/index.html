@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 desafio</title>
+    <link rel="stylesheet" type="text/css" href="jquery/fullpage/fullpage.css" />
+    <link rel="stylesheet" href="jquery/Acordeon/accordion.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="jquery/Reproductor/jquery.min.js"></script>
+    <script src="jquery/Reproductor/speakker-big-1.2.24r229.min.js"></script>
+    <script src="jquery/Acordeon/jquery.msAccordion.js"></script>
+    <script>
+        $(document).ready(function () {
+            projekktor('.projekktor');
+        });
+    </script>
+</head>
+
+<body>
+    <ul id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">Riot Games: LoL</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">Jugabilidad</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">Rankeds</a></li>
+    </ul>
+
+    <div id="fullpage">
+        <div class="section " id="section0">
+            <h1>League of Legends</h1>
+            <p>
+                League of Legends (también conocido por sus siglas LoL) es un videojuego del género multijugador de
+                arena de batalla en línea (MOBA) y deporte electrónico el cual fue desarrollado por Riot Games para
+                Microsoft Windows y OS X. En un principio los servidores estaban alojados en la empresa GOA y fue
+                vendida a la empresa china Tencent Holdings Limited.
+            </p>
+            <img src="img/logolol.png" width="486" height="250" />
+        </div>
+        <div class="section" id="section1">
+            <div class="slide" id="slide2">
+                <div class="intro">
+                    <h1>Roles</h1>
+                    <p>
+                        Cada campeón (personaje del juego) tiene habilidades y características y clases definidas por el
+                        juego, como en un juego de rol. Son cinco clases de campeones:
+                        Luchador, Tirador, Mago o Hechicero, Asesino y Soporte.
+
+                    </p>
+                    <section>
+                        <article>
+                            <div class="accordionWrapper" id="accordion1">
+                                <div class="set set1">
+                                    <div class="title"><img src="img/menu1-h.jpg" width="30" height="198" /></div>
+                                    <div class="content"><img src="img/menu-img-1.jpg" width="486" height="198" /></div>
+                                </div>
+                                <div class="set set2">
+                                    <div class="title"><img src="img/menu2-h.jpg" width="30" height="198" /></div>
+                                    <div class="content"><img src="img/menu-img-2.jpg" width="486" height="198" /></div>
+                                </div>
+                                <div class="set set3">
+                                    <div class="title"><img src="img/menu3-h.jpg" width="30" height="198" /></div>
+                                    <div class="content"><img src="img/menu-img-3.jpg" width="486" height="198" />
+                                    </div>
+                                </div>
+                                <div class="set set4">
+                                    <div class="title"><img src="img/menu4-h.jpg" width="30" height="198" /></div>
+                                    <div class="content"><img src="img/menu-img-4.jpg" width="486" height="198" /><br />
+                                    </div>
+                                </div>
+                                <div class="set set5">
+                                    <div class="title"><img src="img/menu5-h.jpg" width="30" height="198" /></div>
+                                    <div class="content"><img src="img/menu-img-5.jpg" width="486" height="198" /></div>
+                                </div>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </div>
+            <div class="slide" id="slide3">
+                <h1>POSICIONES EN EL JUEGO</h1>
+                <p>El mapa se divide en 5 posiciones al jugar</p>
+                <ul>
+                    <li>Top</li>
+                    <li>Jungle</li>
+                    <li>Mid</li>
+                    <li>Support</li>
+                    <li>Ad carry</li>
+                    
+                </ul>
+                <img src="img/posiciones.jpg" width="486" height="250" style="padding-top: 1em;" />
+            </div>
+
+            <div class="slide" id="slide1">
+                <h1>DISFRUTA DE LA MÚSICA DE LEAGUE OF LEGENDS</h1>
+                <h3>Riot Games cada año saca una tematica para la temporada.</h3>
+                <p>La temática de esta temporada fue Warriors</p>
+                <p>Escucha la canción.</p>
+                <audio class="projekktor speakker light">
+                    <source src="json/playlist.json" type="application/json" />
+                </audio>
+            </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="intro">
+                <h1>Juega y Rankea</h1>
+                <p>Juega con tus amigos y sube a ¡¡RETADOR!!</p>
+                <img src="img/LoL.jpg" width="486" height="258">
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="intro">
+                <h1>CLASIFICATORIAS</h1>
+                <h2>Tu decides si jugar solo o con tus amigos</h2>
+                <p>Existen dos maneras de rankear en LoL:</p>
+                <ul>
+                    <li>Clasificatoria Solo/Duo</li>
+                    <p>Aqui podras jugar tu solo o con un amigo</p>
+                    <li>Clasificatoria Flexible</li>
+                    <p>Aqui podras jugar solo, con dos amigos más, o con un total de 5 jugadores</p>
+                </ul>
+                <img src="img/rankeds.png" width="486" height="258">
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <div class="intro">
+                <h1>LIGAS</h1>
+                <p>Puedes quedar en las siguientes ligas:</p>
+                <ul>
+                    <li>Hierro</li>
+                    <li>Bronce</li>
+                    <li>Plata</li>
+                    <li>Oro</li>
+                    <li>Platino</li>
+                    <li>Diamante</li>
+                    <li>Maestro</li>
+                    <li>Gran Maestro</li>
+                    <li>RETADOR</li>
+                </ul>
+                <img src="img/ligas.jpg" width="100%" height="258" style="padding-top: 1em;">
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="jquery/fullpage/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            sectionsColor: ['#FFA81F', '#69E82A', '#00D9AE', '#2AE8BA','#F09191', 'whitesmoke', '#ccddff'],
+            anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+            menu: '#menu',
+            continuousVertical: false,
+            afterLoad: function (anchorLink, index) {
+                console.log("AFTER LOAD - anchorLink:" + anchorLink + " index:" + index);
+            },
+            onLeave: function (index, nextIndex, direction) {
+                console.log("ONLEAVE - index:" + index + " nextIndex:" + nextIndex + " direction:" + direction);
+            },
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#accordion1").msAccordion({ defaultid: 4, autodelay: 10 });
+        })
+    </script>
+    <script src="jquery/Reproductor/noise.js"></script>
+</body>
+
+</html>

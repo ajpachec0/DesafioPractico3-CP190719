@@ -1,0 +1,46 @@
+{
+	"playlist": [
+		{
+			"0": {
+				"src": "junk/Warrios LoL.mp3",
+				"type": "audio/mp3"
+			},
+			"config": {
+				"title": "Warriors - League of Legends 2020",
+				"poster": "junk/warriors.jpg"
+			}
+		},
+		{
+			"0": {
+				"src": "junk/Awaken LoL.mp3",
+				"type": "audio/mp3"
+			},
+			"config": {
+				"title": "Awaken - League of Legends",
+				"poster": "junk/awaken.jpg"
+			}
+		},
+		{
+			"0": {
+				"src": "junk/Phoenix.mp3",
+				"type": "audio/mp3"
+			},
+			"config": {
+				"title": "Phoenix - League of Legends",
+				"poster": "junk/phoenix.jpg"
+			}
+		},
+		{
+			"0": {
+				"src": "junk/legends.mp3",
+				"type": "audio/mp3"
+			},
+			"config": {
+				"title": "Legends Never Die - League of Legends",
+				"poster": "junk/legends.jpg"
+			}
+		}
+
+		
+	]
+}
